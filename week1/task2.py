@@ -1,0 +1,16 @@
+name = input("What is your name? ")
+student_id = input("What is your student ID? ")
+department = input("Which department are you in? ")
+year = int(input("What year are you in? "))
+university = input("What is the name of your university? ")
+phone_number = int(input("What is your phone number? "))
+line = "+--------------------------------+"
+
+print(f"{line}" + "\n" + "|" + "\t" + " STUDENT INFORMATION " + "    " + "|" + "\n" + f"{line}" + "\n")
+print(f"|Name: {name}" + " " + "|")
+print(f"|ID: {student_id}" + " " + "|")
+print(f"|Department: {department}" + " " + "|")
+print(f"|Year: {year}" + " " + "|")
+print(f"|University: {university}" + " " + "|")
+print(f"|Phone Number: {phone_number}" + " " + "|" + "\n")
+print(f"{line}")
