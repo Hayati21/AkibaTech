@@ -1,5 +1,5 @@
 Full_name = input("what is your name? ")
-Age = input("how old are you? ")
+Age = int(input("how old are you? "))
 City = input("where do you live? ")
 University = input("what is the name of your university? ")
 Department = input("which department are you? ")
